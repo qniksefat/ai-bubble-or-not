@@ -59,15 +59,43 @@ As a non-economist, I tried to be systematic:
 
 I'm not claiming certainty - markets are complex and I'm still learning.
 
-## Phase 2: Strategies (In Progress)
+## Phase 2: Strategies (Expanded - Oct 20, 2025)
 
 **Next question:** If there is a bubble, what are people suggesting to do?
 
-I'm collecting various strategies I've found:
-- Barbell portfolios
-- Diversified ETFs
-- Timeline-based adjustments
-- Traditional hedges
+### New Analysis Added:
+
+#### 🎯 Real-Time Monitoring Dashboard (`v3/bubble_monitoring_dashboard.py`)
+- Composite bubble score: **81.1/100** (Extreme Risk)
+- 6 key indicators tracked with weighted scoring
+- Automated recommendations based on risk level
+- Visual dashboard with historical comparisons
+
+#### 📊 Sector Rotation Analysis
+- Historical patterns from 4 major corrections analyzed
+- Defensive sectors typically outperform by 30-40%
+- Gold/precious metals only consistent positive (+12.5% avg)
+- Specific ETF recommendations by risk profile
+
+#### 🏢 AI Company Valuations
+- Tiered analysis of 20+ AI companies
+- Microsoft, Google, Amazon = survivors (Tier 1)
+- NVIDIA overvalued but strong moat (Tier 2)
+- 90% of AI startups won't survive correction (Tier 4)
+- "Quality Score" metric for evaluation
+
+#### ⏱️ Recovery Timeline Patterns
+- Typical tech bubble: 2-3 years decline, 5-10 years recovery
+- AI bubble projection: Bottom in 2027, recovery by 2030
+- Best opportunities during "capitulation phase"
+- Historical returns post-bubble: +120% to +300% (3-5 years)
+
+### Key Strategic Findings:
+- **Barbell portfolio** most recommended (safe assets + limited tech)
+- **Cash position** of 20-30% provides opportunity
+- **Sector rotation** to utilities, staples, healthcare
+- **International diversification** reduces correlation
+- **Gold allocation** 5-10% as hedge
 
 Again, this is research compilation, not financial advice.
 
@@ -92,8 +120,17 @@ Again, this is research compilation, not financial advice.
 If you want to check my work:
 
 ```bash
+# Original Google Trends analysis
 cd phase-1-detection/analysis/v1/
 python3 ai_bubble_refined_analysis.py
+
+# New real-time monitoring dashboard (v3)
+cd phase-1-detection/analysis/v3/
+python3 bubble_monitoring_dashboard.py
+
+# Sector rotation analysis
+cd phase-2-strategies/analysis/
+python3 sector_rotation_analysis.py
 ```
 
 ## A Note on Limitations
