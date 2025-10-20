@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the data
-df = pd.read_csv('multiTimeline-googleTrends.csv', skiprows=1)
+df = pd.read_csv('../../data/multiTimeline-googleTrends.csv', skiprows=1)
 df['Week'] = pd.to_datetime(df['Week'])
 df.set_index('Week', inplace=True)
 
@@ -382,7 +382,7 @@ Status: {'🔴 HIGH ALERT' if bubble_probability >= 80 else '🟡 CAUTION' if bu
 ax7.text(0.5, 0.5, prob_text, fontsize=10, ha='center', va='center',
          bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
 
-plt.suptitle('AI Bubble Analysis - Comprehensive Dashboard', fontsize=16, fontweight='bold', y=1.02)
+# Title removed for cleaner look
 plt.tight_layout()
 plt.savefig('ai_bubble_refined_analysis.png', dpi=150, bbox_inches='tight')
 print("\n📊 Enhanced visualization saved as 'ai_bubble_refined_analysis.png'")
