@@ -12,15 +12,10 @@ After analyzing Google Trends data, reading expert opinions, and synthesizing mu
 
 ## What I Found
 
-My analysis suggests several concerning patterns:
+several concerning patterns:
 
-- 📈 "AI bubble" searches increased **3,600%** since GPT-4 launch
-- 💭 **54%** of fund managers believe AI is in a bubble (Bank of America survey)
 - 🤔 **95%** of corporate AI projects reportedly fail to deliver ROI
-- 📊 OpenAI's rumored **$500B** valuation with <10% paid users raises questions
 - 📉 **680%** divergence between bubble concerns and technical fundamentals
-
-But remember: I'm approaching this as a curious outsider, not a financial expert. These are patterns I observed, not investment advice.
 
 ## Repository Structure
 
@@ -43,7 +38,7 @@ But remember: I'm approaching this as a curious outsider, not a financial expert
 As a non-economist, I tried to be systematic:
 
 1. **First Principles Thinking** - Breaking down the complex question into smaller parts
-2. **Multiple Perspectives** - Synthesizing three independent analyses (including mine)
+2. **Multiple Perspectives** - Synthesizing three independent analyses
 3. **Historical Patterns** - Comparing to dot-com and crypto bubbles
 4. **Data + Expert Opinion** - Combining quantitative and qualitative insights
 
@@ -52,12 +47,10 @@ As a non-economist, I tried to be systematic:
 **My question:** Are we in an AI bubble?
 
 **What I found:** The evidence suggests yes, with high probability. But this is based on:
-- Google Trends data (2020-2025)
+- Google Trends data
 - Public financial metrics
 - Expert quotes I could find
 - Historical bubble patterns
-
-I'm not claiming certainty - markets are complex and I'm still learning.
 
 ## Phase 2: Strategies (Expanded - Oct 20, 2025)
 
@@ -98,15 +91,6 @@ I'm not claiming certainty - markets are complex and I'm still learning.
 - **Gold allocation** 5-10% as hedge
 
 Again, this is research compilation, not financial advice.
-
-## Quick Summary
-
-| What I Measured | Value | My Interpretation |
-|-----------------|-------|-------------------|
-| Current Search Level | 37/100 | Seems high |
-| Year-over-Year Growth | 254% | Looks extreme |
-| Bubble Phase (my estimate) | Late-Middle | Based on patterns |
-| Possible Resolution | 6-18 months | Just a guess |
 
 ## Data Sources
 
@@ -154,10 +138,6 @@ I'd love to learn from others! Feel free to:
 ## Why I Did This
 
 Pure curiosity. The AI revolution is fascinating, and I wanted to understand if the excitement has gotten ahead of reality. This project taught me a lot about data analysis, market dynamics, and the importance of multiple perspectives.
-
-## Disclaimer
-
-This is personal research by a curious developer, not financial advice. I have no economics background. Please consult actual professionals for investment decisions.
 
 ## License
 
